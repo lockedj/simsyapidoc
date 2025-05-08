@@ -3,16 +3,16 @@ openapi: "3.0.1"
 info: 
   title: "S-IMSY API"
   description: "A RESTful API to interact with the simsy Programmable Mobile Network"
-  termsOfService: "https://simsy.com"
+  termsOfService: "https://s-imsy.com"
   contact: 
     name: "simsy Contact"
-    url: "https://simsy.com"
+    url: "https://s-imsy.com"
   license: 
     name: "simsy License"
-    url: "https://simsy.com"
+    url: "https://s-imsy.com"
   version: "v1"
 servers: 
-- url: "https://api.simsy.com"
+- url: "https://api.s-imsy.com"
 paths: 
   /api/v1/apitokens: 
     get: 
